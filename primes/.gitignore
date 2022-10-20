@@ -1,0 +1,6 @@
+primes_efficient
+primes_efficient_weaver
+*.out
+primes.txt
+primes_efficient.txt
+primes_efficient_weaver.txt

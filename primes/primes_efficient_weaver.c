@@ -9,8 +9,8 @@ int main() {
 
   for (int i = 3; i < 1000000; i += 2) {
     int found_factor = 0;
-    for (int j = 0; j < index; ++j) {
-      if (i % primes[j] == 0) {
+    for (int j = 3; j * j <= i; j += 2) {
+      if (i % j == 0) {
         found_factor = 1;
         break;
       }
@@ -22,7 +22,7 @@ int main() {
   printf("There are %d prime numbers.", index);
 
   FILE *fptr;
-  fptr = fopen("./primes_efficient.txt","w");
+  fptr = fopen("./primes_efficient_weaver.txt","w");
 
   if (fptr == NULL) {
     printf("Error!");

@@ -10,7 +10,7 @@ for x in range(2, 1000000):
   if is_prime(x):
     primes.append(x)
   
-  if x % 5000 == 0: print("Completed", x / 1000000 * 100, "%")
+  #if x % 5000 == 0: print("Completed", x / 1000000 * 100, "%")
 
 print(len(primes))
 
