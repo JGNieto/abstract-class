@@ -1,0 +1,1 @@
+Statistical solution to a riddle about how many sons and daughters will be born according to a series of rules.
